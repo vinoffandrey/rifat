@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-scroll-show>
+			<div class="header__container _container">
+				<div class="header__left">
+					<div class="header__logo">
+						<a data-goto-header data-goto=".main" href="home.html">
+							<picture>
+								<source data-srcset="img/header/logo.webp" type="image/webp"><img data-src
+									src="img/header/logo.png">
+							</picture>
+							<h1>Бытмастер<br>мбр</h1>
+						</a>
+					</div>
+					<div class="header__adress">
+						<picture>
+							<source data-srcset="img/header/adress.webp" type="image/webp"><img data-src
+								src="img/header/adress.png">
+						</picture>
+						<p>Адрес: Москва, ул. Новочерёмушкинская, 60 к1</p>
+					</div>
+					<div class="header__works">
+						<picture>
+							<source data-srcset="img/header/works.webp" type="image/webp"><img data-src
+								src="img/header/works.png">
+						</picture>
+						<p>График работы: ежедневно с 7:00 до 23:00</p>
+					</div>
+				</div>
+				<div class="header__right">
+					<div class="header__phone">
+						<a href="tel:+77777777777" class="header__phone-number">+7 (777) 777-77-77</a>
+						<a data-popup="#popup-consultation" href="#" class="header__phone-consultant">Консультация</a>
+					</div>
+					<div class="header__burger icon-menu">
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__body">
+				<div class="menu__container">
+					<div class="menu__top">
+						<p>Меню сайта</p>
+					</div>
+					<div class="menu__main">
+						<div class="menu__list">
+							<ul>
+								<li><a data-goto-header data-goto=".uslugi" href="home.html">Услуги</a></li>
+								<li><a data-goto-header data-goto=".reviews" href="home.html">Отзывы</a></li>
+								<li><a data-goto-header data-goto=".questions" href="home.html">FAQ</a></li>
+								<li><a data-goto-header data-goto=".footer" href="home.html">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu__bottom">
+						<div class="menu__body-phone">
+							<a href="tel:+77777777777">
+								<picture>
+									<source data-srcset="img/header/phone.webp" type="image/webp"><img data-src
+										src="img/header/phone.png">
+								</picture>
+								<span>+7 (777) 777-77-77</span>
+							</a>
+						</div>
+						<div class="menu__body-mail">
+							<a href="mailto:info@bit-master-mbr.ru">
+								<picture>
+									<source data-srcset="img/header/email.webp" type="image/webp"><img data-src
+										src="img/header/email.png">
+								</picture>
+								<span>info@bit-master-mbr.ru</span>
+							</a>
+						</div>
+						<div class="menu__body-adress">
+							<a href="#">
+								<picture>
+									<source data-srcset="img/header/map.webp" type="image/webp"><img data-src
+										src="img/header/map.png">
+								</picture>
+								<span>Москва, ул. Новочерёмушкинская, 60 К1</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page" data-watch-root>
+			<section data-watch data-watch-once class="main">
+				<div class="main__container">
+					<div class="main__body">
+						<div class="main__title _title">
+							<h2>УСЛУГИ САНТЕХНИКОВ В МОСКВЕ И МОСКОВСКОЙ ОБЛАСТИ</h2>
+						</div>
+						<div class="main__wrapper">
+							<div class="main__left">
+								<div class="main__left-item">
+									<picture>
+										<source data-srcset="img/main/clock.webp" type="image/webp"><img data-src
+											src="img/main/clock.png">
+									</picture>
+									<p>Быстрый выезд мастера <b>за 30 минут</b></p>
+								</div>
+								<div class="main__left-item">
+									<picture>
+										<source data-srcset="img/main/shield.webp" type="image/webp"><img data-src
+											src="img/main/shield.png">
+									</picture>
+									<p><b>Гарантия</b> до 1 года и <b>чек</b> на все работы</p>
+								</div>
+								<div class="main__left-item">
+									<picture>
+										<source data-srcset="img/main/gloves.webp" type="image/webp"><img data-src
+											src="img/main/gloves.png">
+									</picture>
+									<p>Производим работы <b>любой сложности</b></p>
+								</div>
+								<div class="main__left-item">
+									<picture>
+										<source data-srcset="img/main/pic.webp" type="image/webp"><img data-src
+											src="img/main/pic.png">
+									</picture>
+									<p><b>Не завышаем</b> цену на свою работу</p>
+								</div>
+							</div>
+							<div class="main__right">
+								<div class="main__right-body">
+									<div class="main__right-title">
+										ОСТАВЬТЕ ЗАЯВКУ
+									</div>
+									<div class="main__right-text">
+										И наш специалист свяжется с Вами в ближайшее время
+									</div>
+									<div class="main__right-form">
+										<p class="main__right-subtitle">Номер телефона*</p>
+										<form action="URL" method="post">
+											<input class="tel" data-required>
+											<button><svg viewBox="0 0 1 1"></svg><span>Вызвать мастера</span></button>
+										</form>
+										<p class="main__right-politics">Нажимая кнопку, вы даете согласие на <a
+												href="privacy.html" target="_blank">обработку
+												персональных
+												данных</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once data-watch-margin="-10%" class="uslugi" id="uslugi">
+				<div class="uslugi__container">
+					<div class="uslugi__title _title">
+						<h2>НАШИ <span>УСЛУГИ</span></h2>
+					</div>
+					<div class="uslugi__body">
+						<div class="uslugi__item usluga_1">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								УСТРАНЕНИЕ ЗАСОРОВ - ОТ 700 РУБЛЕЙ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+						<div class="uslugi__item usluga_2">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								УСТРАНЕНИЕ ПРОТЕЧЕК - ОТ 600 РУБЛЕЙ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+						<div class="uslugi__item usluga_3">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								СМЕСИТЕЛИ - ОТ 200 РУБЛЕЙ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+						<div class="uslugi__item usluga_4">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								УНИТАЗЫ - ОТ 300 РУБЛЕЙ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+						<div class="uslugi__item usluga_5">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								ВАННЫ - ОТ 400 РУБЛЕЙ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+						<div class="uslugi__item usluga_6">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								ДУШЕВЫЕ КАБИНКИ/УГОЛКИ - ОТ 500 РУБЛЕЙ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+						<div class="uslugi__item usluga_7">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								РАКОВИНЫ - ОТ 300 РУБЛЕЙ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+						<div class="uslugi__item usluga_8">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								ФИЛЬТРЫ ВОДЫ ПОД МОЙКУ - ОТ 500 РУБЛЕЙ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+						<div class="uslugi__item usluga_9">
+							<div class="uslugi__item-filter"></div>
+							<div class="uslugi__item-title">
+								БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТОВ
+							</div>
+							<div class="uslugi__item-button">
+								<a data-popup="#popup-zayavka" href="#"><svg viewBox="0 0 1 1"></svg>Вызвать мастера</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once data-watch-margin="-10%" class="vizov">
+				<div class="vizov__smoke">
+					<div class="vizov__container">
+						<div class="vizov__body">
+							<div class="vizov__left">
+								<div class="vizov__left-body">
+									<div class="vizov__left-title">
+										ОСТАВЬТЕ ЗАЯВКУ
+									</div>
+									<div class="vizov__left-text">
+										И наш специалист свяжется с Вами в ближайшее время
+									</div>
+									<div class="vizov__left-form">
+										<p class="vizov__left-subtitle">Номер телефона*</p>
+										<form action="URL" method="post">
+											<input class="tel" data-required>
+											<button><svg viewBox="0 0 1 1"></svg><span>Вызвать мастера</span></button>
+										</form>
+										<p class="vizov__left-politics">Нажимая кнопку, вы даете согласие на <a
+												href="privacy.html" target="_blank">обработку
+												персональных
+												данных</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="vizov__right">
+								<div class="vizov__right-title _title">
+									<h2>ВЫЗОВИТЕ МАСТЕРА ПРЯМО СЕЙЧАС И ПОЛУЧИТЕ СКИДКУ</h2>
+								</div>
+								<div class="vizov__right-sale">
+									<svg version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80" style="padding: 0px;">
+										<defs>
+											<linearGradient id="gradient-ukxe3d3gzgoij38tnwx4" x1="0%" y1="0%" x2="0%" y2="100%">
+												<stop stop-color="rgb(0, 177, 255)" offset="0%"></stop>
+												<stop stop-color="rgb(102, 208, 255)" offset="100%"></stop>
+											</linearGradient>
+										</defs>
+										<path
+											d="M80 40C80 62.0914 62.0914 80 40 80C17.9086 80 1.52588e-05 62.0914 1.52588e-05 40C1.52588e-05 17.9086 17.9086 0 40 0C62.0914 0 80 17.9086 80 40Z"
+											fill-rule="evenodd" fill="url(#gradient-ukxe3d3gzgoij38tnwx4)"></path>
+									</svg>
+									<span>-15%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="advantages">
+				<div class="advantages__container">
+					<div class="advantages__title _title">
+						<h2>НАШИ<span> ПРЕИМУЩЕСТВА</span> ПЕРЕД КОНКУРЕНТАМИ</h2>
+					</div>
+					<div class="advantages__body">
+						<div class="advantages__item">
+							<picture>
+								<source data-srcset="img/main/clock.webp" type="image/webp"><img data-src
+									src="img/main/clock.png">
+							</picture>
+							<div class="advantages__item-title">
+								<h3>БЫСТРЫЙ ВЫЕЗД</h3>
+							</div>
+							<div class="advantages__item-text">
+								<p>Выезжаем в любой район в течение 30 минут</p>
+							</div>
+						</div>
+						<div class="advantages__item">
+							<picture>
+								<source data-srcset="img/main/shield.webp" type="image/webp"><img data-src
+									src="img/main/shield.png">
+							</picture>
+							<div class="advantages__item-title">
+								<h3>ГАРАНТИЯ И ЧЕК</h3>
+							</div>
+							<div class="advantages__item-text">
+								<p>После выполненных работ предоставляем официальную гарантию и чек</p>
+							</div>
+						</div>
+						<div class="advantages__item">
+							<picture>
+								<source data-srcset="img/main/pic.webp" type="image/webp"><img data-src src="img/main/pic.png">
+							</picture>
+							<div class="advantages__item-title">
+								<h3>НЕТ НАКРУТКИ ЦЕН</h3>
+							</div>
+							<div class="advantages__item-text">
+								<p>Стоимость любых работ будет зафиксирована после первичного осмотра</p>
+							</div>
+						</div>
+						<div class="advantages__item">
+							<picture>
+								<source data-srcset="img/main/gloves.webp" type="image/webp"><img data-src
+									src="img/main/gloves.png">
+							</picture>
+							<div class="advantages__item-title">
+								<h3>ЛЮБОЙ ОБЪЕМ И СЛОЖНОСТЬ</h3>
+							</div>
+							<div class="advantages__item-text">
+								<p>Предоставляем услуги по монтажу, замене и ремонту сантехники любой сложности и объема</p>
+							</div>
+						</div>
+					</div>
+					<div class="advantages__block-background">
+						<picture>
+							<source data-srcset="img/advantages/back1.webp" type="image/webp"><img data-src
+								class="advantages__background-1" src="img/advantages/back1.png">
+						</picture>
+						<picture>
+							<source data-srcset="img/advantages/back2.webp" type="image/webp"><img data-src
+								class="advantages__background-2" src="img/advantages/back2.png">
+						</picture>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="about">
+				<div class="about__container">
+					<div class="about__body">
+						<div class="about__left">
+							<div class="about__title _title">
+								<h2>НЕМНОГО О НАШЕЙ<br><span> КОМПАНИИ</span></h2>
+							</div>
+							<div class="about__text">
+								<p>У нас небольшой штат, но каждый сантехник профессионал своего дела с профильным образованием.
+									Благодаря многолетнему опыту все сантехнические работы будут произведены на высоком уровне по
+									демократичной цене.</p>
+							</div>
+						</div>
+						<div class="about__right">
+							<svg version="1.1" preserveAspectRatio="none" viewBox="0 0 80 80" style="padding: 0px;">
+								<defs>
+									<linearGradient id="gradient-uk09qu4kg7iklie10buf" x1="0%" y1="0%" x2="0%" y2="100%">
+										<stop stop-color="rgb(229, 247, 255)" offset="0%"></stop>
+										<stop stop-color="rgb(242, 251, 255)" offset="100%"></stop>
+									</linearGradient>
+								</defs>
+								<path
+									d="M80 40C80 62.0914 62.0914 80 40 80C17.9086 80 1.52588e-05 62.0914 1.52588e-05 40C1.52588e-05 17.9086 17.9086 0 40 0C62.0914 0 80 17.9086 80 40Z"
+									fill-rule="evenodd" fill="url(#gradient-uk09qu4kg7iklie10buf)"></path>
+							</svg>
+							<picture>
+								<source data-srcset="img/about/person.webp" type="image/webp"><img data-src class="about__img-1"
+									src="img/about/person.png">
+							</picture>
+							<picture>
+								<source data-srcset="img/about/shower.webp" type="image/webp"><img data-src class="about__img-2"
+									src="img/about/shower.png">
+							</picture>
+							<picture>
+								<source data-srcset="img/about/rakovina.webp" type="image/webp"><img data-src
+									class="about__img-3" src="img/about/rakovina.png">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="reviews">
+				<div class="reviews__container">
+					<div class="reviews__title _title">
+						<h2><span>ОТЗЫВЫ </span>НАШИХ ДОВОЛЬНЫХ КЛИЕНТОВ</h2>
+					</div>
+					<div class="reviews__body swiper">
+						<div class="reviews__slider-body swiper-wrapper">
+							<div class="reviews__slider-item swiper-slide">
+								<div class="reviews__item-top">
+									<picture>
+										<source data-srcset="img/reviews/person_1.webp" type="image/webp"><img data-src
+											src="img/reviews/person_1.png">
+									</picture>
+									<p>МАРИЯ СЕРГЕЕВА</p>
+								</div>
+								<div class="reviews__item-text">
+									<p>Претензий к работе мастера нет, всё нормально. Не супер конечно, но пойдет.</p>
+								</div>
+							</div>
+							<div class="reviews__slider-item swiper-slide">
+								<div class="reviews__item-top">
+									<picture>
+										<source data-srcset="img/reviews/person_2.webp" type="image/webp"><img data-src
+											src="img/reviews/person_2.png">
+									</picture>
+									<p>ЕВГЕНИЯ КАФЕЛЬНИКОВА</p>
+								</div>
+								<div class="reviews__item-text">
+									<p>Меня всё устроило. Спасибо большое за мастера. Все сделано аккуратно, четко, добротно.
+										После выполнения работ за собой убрался. Никаких нареканий нет, есть только плюсы. 5+</p>
+								</div>
+							</div>
+							<div class="reviews__slider-item swiper-slide">
+								<div class="reviews__item-top">
+									<picture>
+										<source data-srcset="img/reviews/person_3.webp" type="image/webp"><img data-src
+											src="img/reviews/person_3.png">
+									</picture>
+									<p>СЕРГЕЙ НИКИФОРОВ</p>
+								</div>
+								<div class="reviews__item-text">
+									<p>Все отлично, 5 баллов. Нас все устроило. Мастер справился со своей работой</p>
+								</div>
+							</div>
+							<div class="reviews__slider-item swiper-slide">
+								<div class="reviews__item-top">
+									<picture>
+										<source data-srcset="img/reviews/person_4.webp" type="image/webp"><img data-src
+											src="img/reviews/person_4.png">
+									</picture>
+									<p>АЛЕКСАНДР СЛЕПЦОВ</p>
+								</div>
+								<div class="reviews__item-text">
+									<p>Вежливые и пунктуальные мастера, работали чётко и быстро. Устранили все неисправности со
+										смесителем в нашей квартире</p>
+								</div>
+							</div>
+							<div class="reviews__slider-item swiper-slide">
+								<div class="reviews__item-top">
+									<picture>
+										<source data-srcset="img/reviews/person_5.webp" type="image/webp"><img data-src
+											src="img/reviews/person_5.png">
+									</picture>
+									<p>МАРИЯ СЕРГЕЕВА</p>
+								</div>
+								<div class="reviews__item-text">
+									<p>Мастер приехал в назначенное время. Он произвел первичный осмотр и вынес вердикт, что
+										нужно покупать новую лейку на душ. Сам сходил купил всё необходимое (чек предоставил), всё
+										сделал, сделал хорошо, за собой всё убрал. Молодец</p>
+								</div>
+							</div>
+							<div class="reviews__slider-item swiper-slide">
+								<div class="reviews__item-top">
+									<picture>
+										<source data-srcset="img/reviews/person_6.webp" type="image/webp"><img data-src
+											src="img/reviews/person_6.png">
+									</picture>
+									<p>ЕВГЕНИЯ КАФЕЛЬНИКОВА</p>
+								</div>
+								<div class="reviews__item-text">
+									<p>Все прошло очень хорошо. Я полностью доволен! Рекомендую этот сервис и мастера Владимира
+										на 10 баллов!</p>
+								</div>
+							</div>
+						</div>
+						<div class="main-slider__arrows reviews-slider__arrows">
+							<div class="main-slider__arrow-next swiper-button-next">
+
+							</div>
+							<div class="main-slider__arrow-prev swiper-button-prev">
+
+							</div>
+						</div>
+						<div class="main-slider__bullets">
+
+						</div>
+					</div>
+					<div class="reviews__body-button">
+						<form>
+							<button data-popup="#popup-otziv"><svg viewBox="0 0 1 1"></svg><span>Оставить отзыв</span></button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="questions" id="FAQ">
+				<div class="questions__container">
+					<div class="questions__title _title">
+						<h2>ОТВЕТЫ НА ВАШИ ЧАСТО ЗАДАВАЕМЫЕ <span>ВОПРОСЫ</span></h2>
+					</div>
+					<div class="questions__body spollers">
+						<div class="questions__spollers spollers__item" data-spollers>
+							<div class="questions__spollers-title spollers__title" data-spoller>
+								<p>В ТЕЧЕНИЕ КАКОГО ВРЕМЕНИ ПРИЕЗЖАЕТ САНТЕХНИК?</p>
+							</div>
+							<div class="questions__spollers-body spollers__body">
+								<p>Мастер выезжает к вам в течение 30 минут, либо в назначенное время.</p>
+							</div>
+						</div>
+						<div class="questions__spollers spollers__item" data-spollers>
+							<div class="questions__spollers-title spollers__title" data-spoller>
+								<p>КАКОЙ РАЙОН ВЫ ОБСЛУЖИВАЕТЕ?</p>
+							</div>
+							<div class="questions__spollers-body spollers__body">
+								<p>К сожалению, это невозможно по ряду причин. Точную стоимость ремонта может определить только
+									квалифицированный специалист электромонтажник непосредственно на объекте.</p>
+							</div>
+						</div>
+						<div class="questions__spollers spollers__item" data-spollers>
+							<div class="questions__spollers-title spollers__title" data-spoller>
+								<p>СКОЛЬКО СТОИТ ВЫЕЗД САНТЕХНИКА?</p>
+							</div>
+							<div class="questions__spollers-body spollers__body">
+								<p>Выезд по Москве — бесплатен.</p>
+							</div>
+						</div>
+						<div class="questions__spollers spollers__item" data-spollers>
+							<div class="questions__spollers-title spollers__title" data-spoller>
+								<p>ПРЕДОСТАВЛЯЕТЕ ГАРАНТИЮ?</p>
+							</div>
+							<div class="questions__spollers-body spollers__body">
+								<p>По окончанию работ, мастер предоставит вам акт выполненных работ, чек и официальную гарантию
+									на 1 год.</p>
+							</div>
+						</div>
+						<div class="questions__spollers spollers__item" data-spollers>
+							<div class="questions__spollers-title spollers__title" data-spoller>
+								<p>МОЖЕТЕ НАЗВАТЬ ТОЧНУЮ СТОИМОСТЬ РЕМОНТА ПО ТЕЛЕФОНУ?</p>
+							</div>
+							<div class="questions__spollers-body spollers__body">
+								<p>К сожалению, это невозможно по ряду причин. Точную стоимость ремонта может определить только
+									квалифицированный специалист электромонтажник непосредственно на объекте.</p>
+							</div>
+						</div>
+						<div class="questions__spollers spollers__item" data-spollers>
+							<div class="questions__spollers-title spollers__title" data-spoller>
+								<p>ЕСЛИ У МЕНЯ НЕТ НУЖНЫХ МАТЕРИАЛОВ ИЛИ ЗАПЧАСТЕЙ?</p>
+							</div>
+							<div class="questions__spollers-body spollers__body">
+								<p>Не беда. Мастер сходит в магазин и подберет необходимые детали.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch data-watch-once class="form">
+				<div class="form__container">
+					<div class="form__body">
+						<div class="form__left">
+							<div class="form__left-body">
+								<div class="form__left-title">
+									ОСТАВЬТЕ ЗАЯВКУ
+								</div>
+								<div class="form__left-text">
+									И наш специалист свяжется с Вами в ближайшее время
+								</div>
+								<div class="form__left-form">
+									<p class="form__left-subtitle">Номер телефона*</p>
+									<form action="URL" method="post">
+										<input class="tel" data-required>
+										<button><svg viewBox="0 0 1 1"></svg><span>Консультация</span></button>
+									</form>
+									<p class="form__left-politics">Нажимая кнопку, вы даете согласие на <a href="privacy.html"
+											target="_blank">обработку
+											персональных
+											данных</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="form__right">
+							<div class="form__title _title">
+								<h2>У ВАС ОСТАЛИСЬ ВОПРОСЫ?</h2>
+							</div>
+							<div class="form__text">
+								<p>Оставьте заявку на сайте и мы свяжемся с Вами в удобное для Вас Время, или же свяжитесь с
+									нами по указанным ниже контактным данным.</p>
+							</div>
+							<div class="form__contacts">
+								<div class="form__contacts-item">
+									<a href="tel:+77777777777">
+										<picture>
+											<source data-srcset="img/header/phone.webp" type="image/webp"><img data-src
+												src="img/header/phone.png">
+										</picture>
+										<span>+7 (777) 777-77-77</span>
+									</a>
+								</div>
+								<div class="form__contacts-item">
+									<a href="mailto:info@bit-master-mbr.ru">
+										<picture>
+											<source data-srcset="img/header/email.webp" type="image/webp"><img data-src
+												src="img/header/email.png">
+										</picture>
+										<span>info@bit-master-mbr.ru</span>
+									</a>
+								</div>
+								<div class="form__contacts-item">
+									<a href="#">
+										<picture>
+											<source data-srcset="img/header/map.webp" type="image/webp"><img data-src
+												src="img/header/map.png">
+										</picture>
+										<span>Москва, ул. Новочерёмушкинская, 60 К1</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer data-watch data-watch-once class="footer" id="contacts">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__left">
+						<div class="footer__logo">
+							<a data-goto-header data-goto=".main" href="home.html">
+								<picture>
+									<source data-srcset="img/header/logo.webp" type="image/webp"><img data-src
+										src="img/header/logo.png">
+								</picture>
+								<h1>Бытмастер<br> мбр</h1>
+							</a>
+						</div>
+						<div class="footer__menu">
+							<div class="menu__list">
+								<ul>
+									<li><a data-goto-header data-goto=".uslugi" href="home.html">Услуги</a></li>
+									<li><a href="#">Отзывы</a></li>
+									<li><a data-goto-header data-goto=".questions" href="home.html">FAQ</a></li>
+									<li><a data-goto-header data-goto=".footer" href="home.html">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__center">
+						<div class="footer__center-copyright">
+							<p>Copyright 2022 © Копирование информации запрещено законом</p>
+						</div>
+						<div class="footer__center-works">
+							<picture>
+								<source data-srcset="img/header/works.webp" type="image/webp"><img data-src
+									src="img/header/works.png">
+							</picture>
+							<p>График работы: ежедневно с 7:00 до 23:00</p>
+						</div>
+						<div class="footer__center-polytics">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 287.543 287.543"
+								style="enable-background:new 0 0 287.543 287.543;" xml:space="preserve">
+								<path d="M249.891,34.515c-1.183,0-2.286,0.349-3.351,1.009c-7.548,4.683-17.474,7.157-28.784,7.157
+	c-8.306,0-16.908-1.334-25.61-3.967c-19.508-5.9-36.043-28.702-41.479-36.192C149.524,0.942,147.555,0,145.394,0
+	c-2.05,0-3.851,0.869-4.946,2.388c-5.415,7.512-21.891,30.369-41.585,36.326c-8.58,2.596-17.627,3.967-26.164,3.967
+	c-11.138,0-21.303-2.313-28.625-6.514c-1.296-0.743-3.212-1.598-5.254-1.598c-3.426,0-7.049,2.505-7.049,8.1v126.072
+	c0,35.122,28.631,65.269,52.51,84.374c24.551,19.645,53.198,34.428,59.74,34.428c4.972,0,33.638-14.874,58.399-34.406
+	c24.396-19.243,53.352-49.506,53.352-84.396V41.271C255.771,36.836,252.896,34.515,249.891,34.515z M222.771,167.088
+	c0,45.572-74,82.516-77,82.516V48.433c0-0.15,1.08-0.049,1.303,0.258c6.537,9.008,17.948,23.345,31.968,27.586
+	c16.602,5.022,32.277,3.588,42.419-2.703c0.581-0.361,1.311-0.3,1.311,1.087V167.088z" />
+							</svg>
+
+							<a href="privacy.html" target="_blank">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+						</div>
+					</div>
+					<div class="footer__right">
+						<picture>
+							<source data-srcset="img/footer/kran.webp" type="image/webp"><img data-src
+								src="img/footer/kran.png">
+						</picture>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-consultation" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="popup__title main__right-title">
+						<h2>ОСТАВЬТЕ ЗАЯВКУ НА КОНСУЛЬТАЦИЮ</h2>
+					</div>
+					<div class="popup__subtitle main__right-text">
+						<p>И наш специалист свяжется с Вами в ближайшее время</p>
+					</div>
+					<div class="popup__body">
+						<div class="popup__input main__right-form">
+							<p class="popup__subtitle main__right-subtitle">Номер телефона *</p>
+							<form action="URL" method="post" class="popup__form">
+								<input class="tel" data-required>
+								<button><svg viewBox="0 0 1 1"></svg><span>Консультация</span></button>
+							</form>
+							<p class="popup__politics main__right-politics">
+								Нажимая кнопку, вы даете согласие на <a href="privacy.html" target="_blank">обработку
+									персональных
+									данных</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="popup-zayavka" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="popup__title main__right-title">
+						<h2>ЗАЯВКА</h2>
+					</div>
+					<div class="popup__subtitle main__right-text">
+						<p>Оставьте заявку и наш специалист свяжется с Вами в ближайшее время</p>
+					</div>
+					<div class="popup__body">
+						<div class="popup__input main__right-form">
+							<p class="popup__subtitle main__right-subtitle">Номер телефона *</p>
+							<form action="URL" method="post" class="popup__form">
+								<input class="tel" data-required>
+								<button><svg viewBox="0 0 1 1"></svg><span>Вызвать мастера</span></button>
+							</form>
+							<p class="popup__politics main__right-politics">
+								Нажимая кнопку, вы даете согласие на <a href="privacy.html" target="_blank">обработку
+									персональных
+									данных</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="popup-otziv" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<div class="popup__title main__right-title">
+						<h2>ОСТАВЬТЕ СВОЙ ОТЗЫВ</h2>
+					</div>
+					<div class="popup__subtitle main__right-text">
+						<p>И мы опубликуем его в ближайшее время</p>
+					</div>
+					<div class="popup__body">
+						<div class="popup__input main__right-form">
+							<form action="URL" method="post" class="popup__form">
+								<p class="popup__subtitle main__right-subtitle">Ваше имя *</p>
+								<input class="name" data-required>
+								<p class="popup__subtitle main__right-subtitle">Ваш отзыв *</p>
+								<textarea class="name" data-required></textarea>
+								<button><svg viewBox="0 0 1 1"></svg><span>Оставить отзыв</span></button>
+							</form>
+							<p class="popup__politics main__right-politics">
+								Нажимая кнопку, вы даете согласие на <a href="privacy.html" target="_blank">обработку
+									персональных
+									данных</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220228222617"></script>
+</body>
+
+</html>
